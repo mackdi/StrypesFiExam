@@ -1,0 +1,8 @@
+sudo useradd examuser
+sudo groupadd examgroup
+sudo groupadd strypes
+sudo usermod -g examgroup examuser
+sudo usermod -g strypes examuser
+sudo cp /etc/passwd ~
+sudo chown -v examuser:strypes ~/passwd 
+sudo chmod -v 752 ~/passwd
