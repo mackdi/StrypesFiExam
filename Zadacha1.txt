@@ -1,0 +1,6 @@
+mkdir -p ~/'Linux Exam'/{Files,Strypes/{Day01,Day02}}
+touch ~/Linux\ Exam/Files/{doc{1..5}.txt,report{1..5}.doc,results{1..5}.doc,statistics{1,2}.xls} 
+cp ~/Linux\ Exam/Files/*.txt ~/Linux\ Exam/Strypes/Day01 
+mv ~/Linux\ Exam/Files/*.doc ~/Linux\ Exam/Strypes/Day02
+mv ~/Linux\ Exam/Files/statistics1.xls ~/Linux\ Exam/Files/.statistics1.xls
+rm ~/Linux\ Exam/Strypes/Day02/*
